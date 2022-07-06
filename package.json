@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "jsx-new",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "babel-transfrom": "npx babel ./src/index.js --out-file ./build/index.js",
+    "jsxToHtml": "node ./build/index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/plugin-transform-react-jsx": "^7.18.6",
+    "jsxte": "^1.0.1",
+    "react": "^18.2.0"
+  }
+}
